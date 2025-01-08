@@ -322,4 +322,7 @@ st.title("Crustdata Customer Support Agent")
 userInput = st.text_input("Enter your question...")
 submitButton = st.button("Submit")
 if submitButton:
-  st.text(answer(userInput))
+  try:
+    st.text(answer(userInput))
+  except:
+    st.text("Groq server may be unavailable to to load. Please try again later.")
