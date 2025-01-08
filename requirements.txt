@@ -3,5 +3,3 @@ langchain-groq
 langchain-community
 chromadb
 streamlit
-os
-dotenv
