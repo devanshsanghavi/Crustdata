@@ -3,3 +3,4 @@ langchain-groq
 langchain-community
 chromadb
 streamlit
+pysqlite3-binary
